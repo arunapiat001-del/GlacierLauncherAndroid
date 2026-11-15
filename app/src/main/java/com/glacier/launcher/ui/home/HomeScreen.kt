@@ -276,7 +276,7 @@ private fun HomeContent(
             Box(Modifier.weight(1f).fillMaxWidth().onGloballyPositioned { pagesBounds = it.boundsInRoot() }) {
                 HorizontalPager(
                     state = pager,
-                    beyondViewportPageCount = if (drag != null) s.pages else 1,
+                    beyondBoundsPageCount = if (drag != null) s.pages else 1,
                     userScrollEnabled = drag == null,
                     modifier = Modifier.fillMaxSize()
                 ) { page ->

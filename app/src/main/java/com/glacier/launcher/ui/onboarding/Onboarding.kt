@@ -27,6 +27,7 @@ private val steps = listOf(
     Step("🏠", "Make it your Home app", "Android needs your approval to switch launchers. Tap the button and choose GlacierLauncher. You can change this anytime.")
 )
 
+@OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
 @Composable
 fun OnboardingScreen(env: LauncherEnv, onFinish: () -> Unit) {
     val cs = MaterialTheme.colorScheme
