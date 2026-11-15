@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Original GlacierLauncher mark: two ice peaks -->
+    <path android:fillColor="#FF9ADBFF"
+        android:pathData="M18,80 L46,34 L60,58 L68,46 L90,80 Z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M46,34 L55,49 L50,47 L46,53 L41,45 Z" />
+    <path android:fillColor="#66FFFFFF"
+        android:pathData="M18,80 L46,56 L60,80 Z" />
+</vector>
